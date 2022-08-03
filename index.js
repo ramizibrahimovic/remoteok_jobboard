@@ -30,7 +30,7 @@ xhttp.onreadystatechange = function() {
                     }).join("")}
                 </div>
                 <div class="right-container">
-                    ${new Date(data.date).toLocaleString().slice(0,5)}
+                    Date added: ${new Date(data.date).toLocaleString().slice(0,5)}
                     <a href="${data.apply_url}">
                         <button class="apply">Apply</button>
                      </a>
