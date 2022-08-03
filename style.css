@@ -26,9 +26,7 @@ body {
 }
 
 .logo {
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    object-fit: scale-down;
     width: 3em;
     height: 3em;
     border:rgba(0, 0, 0, 0.1) 1px solid;
