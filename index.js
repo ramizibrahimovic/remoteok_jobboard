@@ -7,13 +7,18 @@ xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         // Typical action to be performed when the document is ready:
         let allData = JSON.parse(xhttp.responseText);
-        console.log(allData[5]);
+        console.log(allData[1]);
         let container = document.querySelector("#container");
         for (let data of allData.slice(1)) {
             let row = document.createElement("div");
             row.classList.add("row");
+            let logoImg = data.company_logo;
+            if (logoImg == "") {
+                logoImg = "logo-square.avif"
+            }
+            console.log(logoImg)
             row.innerHTML = `
-                <img class="logo" src="${data.company_logo}">
+                <img class="logo" src="${logoImg}">
                 <div class="left-container">
                     <h5 class="company">${data.company}</h5>
                     <h3 class="position">${data.position}</h3>
