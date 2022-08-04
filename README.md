@@ -1,4 +1,4 @@
-# Remote Ok Jobboard
+# Remote Ok Job Board
 <h3>What is it?</h3>
 <p>A replication of <a href="https://remoteok.com/" target="_blank">Remote | Ok's job board.</p>
 
