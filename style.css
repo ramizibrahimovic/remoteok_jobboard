@@ -6,7 +6,7 @@
 
 body {
     background: WhiteSmoke;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Nunito,Arial, Helvetica, sans-serif;
 }
 
 .row {
@@ -32,24 +32,34 @@ body {
 
 .transparent_banner_container {
     background: rgb(244,244,244,0.8);
-    font-family: Nunito;
     width: 60%;
-    margin: 34px auto;
-    padding: 1%;
+    margin: 45px auto;
+    padding: 2%;
     text-align: center;
     border-radius: 5px;
 }
 
-h4 a,
 h6 a {
     color: black;
     text-decoration: none;
     font-style: italic;
 }
 
-h4, h6 {
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+
+h2, h4, h6 {
     font-weight: normal;
+}
+
+h2 {
     margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
 }
 
 .left-container {
@@ -65,8 +75,8 @@ h4, h6 {
     margin: 5px 15px;
 }
 
-.position, .company {
-    font-size: 16px;
+.position {
+    font-size: 20px;
 }
 
 .company {
@@ -83,11 +93,12 @@ h4, h6 {
 .tag {
     margin: 5px 10px;
     padding: 5px 15px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight:bold;
     text-transform: uppercase;
     border: 2.5px solid black;
     border-radius: 10px;
+    cursor: pointer
 }
 .right-container {
     width: 30%;
@@ -103,7 +114,6 @@ h4, h6 {
     border-radius: 10px;
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
     background: #ff4742;
     color: white;
 }
