@@ -7,5 +7,6 @@
 
 <h3>Screenshot</h3>
 <p>Total Downloads Scrutinizer Code Quality License</p>
-![Screenshot](/remoteok_jobboard/screenshot.png?raw=true "Employee Data title")
+![Screenshot](screenshot.png?raw=true "Employee Data title")
 ![My Image](screenshot.png)
+![My Image2](/assets/screenshot.png)
