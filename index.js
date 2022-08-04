@@ -14,7 +14,7 @@ xhttp.onreadystatechange = function() {
             row.classList.add("row");
             let logoImg = data.company_logo;
             if (logoImg == "") {
-                logoImg = "logo-square.avif"
+                logoImg = "assets/logo-square.avif"
             }
             row.innerHTML = `
                 <img class="logo" src="${logoImg}">
