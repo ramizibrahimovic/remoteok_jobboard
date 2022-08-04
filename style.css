@@ -21,6 +21,15 @@ body {
     border-radius: 12px;
 }
 
+.no-flex {
+    display: block;
+    padding-left: 18px
+}
+
+h4 {
+    font-weight: normal;
+}
+
 .left-container {
     width: 45%;
 }
